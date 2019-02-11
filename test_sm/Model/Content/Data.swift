@@ -13,9 +13,9 @@ enum DataType: String, Codable {
     case shop = "shop"
 }
 
-final class Data: Codable {
+class Data: Codable {
     var id: Int
-    var type: String
+    var type: DataType
     var title: String
     var shortDescription: String
     var description: String

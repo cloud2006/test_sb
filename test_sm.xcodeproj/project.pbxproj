@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6F0CB9B6E5BCAF633892B354 /* Pods_test_sm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4976FBC2E23502EE3B9E5C5C /* Pods_test_sm.framework */; };
-		DA097AAF22103660005B1926 /* EventsShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA097AAE22103660005B1926 /* EventsShopsViewController.swift */; };
-		DA097AB422103C9E005B1926 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA097AB322103C9E005B1926 /* Event.swift */; };
-		DA097AB622103CAF005B1926 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA097AB522103CAF005B1926 /* Shop.swift */; };
 		DA15F3D0221022A80087083B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15F3CF221022A80087083B /* AppDelegate.swift */; };
 		DA15F3D5221022A80087083B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA15F3D3221022A80087083B /* Main.storyboard */; };
 		DA15F3D7221022AB0087083B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA15F3D6221022AB0087083B /* Assets.xcassets */; };
@@ -18,14 +15,15 @@
 		DA15F3E62210281E0087083B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15F3E52210281E0087083B /* Extensions.swift */; };
 		DA15F3E922102BF30087083B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15F3E822102BF30087083B /* Router.swift */; };
 		DA4E8D3622118C5900EF372B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E8D3522118C5900EF372B /* Data.swift */; };
+		DA4E8D392211ACBB00EF372B /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E8D382211ACBB00EF372B /* DataCell.swift */; };
+		DA4E8D3B2211AD2100EF372B /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E8D3A2211AD2100EF372B /* DataViewController.swift */; };
+		DA4E8D432211D29E00EF372B /* SingleItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E8D422211D29E00EF372B /* SingleItemViewController.swift */; };
+		DA4E8D452211DDC400EF372B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E8D442211DDC400EF372B /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4976FBC2E23502EE3B9E5C5C /* Pods_test_sm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_sm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04FCCA7F8CA65E2B361022E /* Pods-test_sm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_sm.release.xcconfig"; path = "Pods/Target Support Files/Pods-test_sm/Pods-test_sm.release.xcconfig"; sourceTree = "<group>"; };
-		DA097AAE22103660005B1926 /* EventsShopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsShopsViewController.swift; sourceTree = "<group>"; };
-		DA097AB322103C9E005B1926 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		DA097AB522103CAF005B1926 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		DA15F3CC221022A80087083B /* test_sm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_sm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15F3CF221022A80087083B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA15F3D4221022A80087083B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,6 +33,10 @@
 		DA15F3E52210281E0087083B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DA15F3E822102BF30087083B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		DA4E8D3522118C5900EF372B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		DA4E8D382211ACBB00EF372B /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
+		DA4E8D3A2211AD2100EF372B /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		DA4E8D422211D29E00EF372B /* SingleItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleItemViewController.swift; sourceTree = "<group>"; };
+		DA4E8D442211DDC400EF372B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		DBCD583C01042DCEFD750706 /* Pods-test_sm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_sm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test_sm/Pods-test_sm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,8 +72,6 @@
 		DA097AB222103C8B005B1926 /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				DA097AB322103C9E005B1926 /* Event.swift */,
-				DA097AB522103CAF005B1926 /* Shop.swift */,
 				DA4E8D3522118C5900EF372B /* Data.swift */,
 			);
 			path = Content;
@@ -120,7 +120,10 @@
 		DA15F3E22210277C0087083B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DA097AAE22103660005B1926 /* EventsShopsViewController.swift */,
+				DA4E8D3A2211AD2100EF372B /* DataViewController.swift */,
+				DA4E8D422211D29E00EF372B /* SingleItemViewController.swift */,
+				DA4E8D442211DDC400EF372B /* MapViewController.swift */,
+				DA4E8D372211AC7B00EF372B /* Cell */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -149,6 +152,14 @@
 				DA15F3E822102BF30087083B /* Router.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		DA4E8D372211AC7B00EF372B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DA4E8D382211ACBB00EF372B /* DataCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,12 +241,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-test_sm/Pods-test_sm-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -272,12 +285,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA4E8D3622118C5900EF372B /* Data.swift in Sources */,
+				DA4E8D392211ACBB00EF372B /* DataCell.swift in Sources */,
+				DA4E8D432211D29E00EF372B /* SingleItemViewController.swift in Sources */,
 				DA15F3E922102BF30087083B /* Router.swift in Sources */,
 				DA15F3E62210281E0087083B /* Extensions.swift in Sources */,
 				DA15F3D0221022A80087083B /* AppDelegate.swift in Sources */,
-				DA097AB622103CAF005B1926 /* Shop.swift in Sources */,
-				DA097AB422103C9E005B1926 /* Event.swift in Sources */,
-				DA097AAF22103660005B1926 /* EventsShopsViewController.swift in Sources */,
+				DA4E8D3B2211AD2100EF372B /* DataViewController.swift in Sources */,
+				DA4E8D452211DDC400EF372B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
