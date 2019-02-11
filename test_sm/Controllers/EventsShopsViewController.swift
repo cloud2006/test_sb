@@ -13,7 +13,7 @@ class EventsShopsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     
-    var data: [Event]?
+    private lazy var data = [Data]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,9 +35,9 @@ class EventsShopsViewController: UIViewController {
     }
     
     private func loadData() {
-        Network.request(BASE_URL, completion: { eventsArray in
-            self.data = eventsArray
-            print(self.data?.count)
+        Network.request(BASE_URL, success: { [weak self] in
+            guard let array = $0 as? [Data] else { return }
+            self?.data.append(contentsOf: array)
         })
     }
 }

@@ -17,6 +17,7 @@
 		DA15F3DA221022AB0087083B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA15F3D8221022AB0087083B /* LaunchScreen.storyboard */; };
 		DA15F3E62210281E0087083B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15F3E52210281E0087083B /* Extensions.swift */; };
 		DA15F3E922102BF30087083B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15F3E822102BF30087083B /* Router.swift */; };
+		DA4E8D3622118C5900EF372B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E8D3522118C5900EF372B /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		DA15F3DB221022AB0087083B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA15F3E52210281E0087083B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DA15F3E822102BF30087083B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		DA4E8D3522118C5900EF372B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		DBCD583C01042DCEFD750706 /* Pods-test_sm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_sm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test_sm/Pods-test_sm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 			children = (
 				DA097AB322103C9E005B1926 /* Event.swift */,
 				DA097AB522103CAF005B1926 /* Shop.swift */,
+				DA4E8D3522118C5900EF372B /* Data.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4E8D3622118C5900EF372B /* Data.swift in Sources */,
 				DA15F3E922102BF30087083B /* Router.swift in Sources */,
 				DA15F3E62210281E0087083B /* Extensions.swift in Sources */,
 				DA15F3D0221022A80087083B /* AppDelegate.swift in Sources */,

@@ -15,9 +15,9 @@ enum ItemType {
 class Event {
     
     var id: Int
-    var type: ItemType = .event
+    var type: String
     var title: String
-    var shortDescripton: String
+    var shortDescription: String
     var description: String
     var smallImage: String
     var bigImage: String
@@ -26,8 +26,9 @@ class Event {
     
     init(_ json: JSON) {
         id = json["id"] as? Int ?? 0
+        type = json["type"] as? String ?? ""
         title = json["title"] as? String ?? ""
-        shortDescripton = json["shortDescripton"] as? String ?? ""
+        shortDescription = json["shortDescription"] as? String ?? ""
         description = json["description"] as? String ?? ""
         smallImage = json["smallImage"] as? String ?? ""
         bigImage = json["bigImage"] as? String ?? ""

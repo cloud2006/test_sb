@@ -34,7 +34,7 @@ typealias FailureClosure = ((CustomError) -> Void)?
 
 final class NetworkProvider {
     
-    func request(_ url: String, success: SuccessClosure = nil, failure: FailureClosure = nil, completion: @escaping ([Event]?) -> Void) {
+    func request(_ url: String, success: SuccessClosure = nil, failure: FailureClosure = nil) {
         
         if isNetworkAvailable == false {
             failure?(.noInternetConnection)
@@ -42,18 +42,16 @@ final class NetworkProvider {
         }
         Alamofire.request(url, method: .get).validate().responseJSON { response in
             guard response.result.isSuccess else {
-                print("Error while fetching data")
-                completion(nil)
+                failure?(.custom("Error while fetching data"))
                 return
             }
             guard let value = response.result.value as? [JSON] else {
-                    print("Malformed data received")
-                    completion(nil)
+                failure?(.custom("Malformed data received"))
                     return
             }
             
-            let events = value.compactMap { json in return Event(json) }
-            completion(events)
+            let datalist = try! JSONDecoder().decode([Data].self, from: JSONSerialization.data(withJSONObject: value))
+            success?(datalist)
         }
     }
 }
